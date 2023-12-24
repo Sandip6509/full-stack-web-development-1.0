@@ -1,0 +1,26 @@
+/* Descendent Selector */
+main p{
+    color: red;
+}
+
+/* Child Selector */
+h1 > p {
+    color: blue;
+}
+
+/* Adjacent sibling selector */
+section + p{
+    color: yellow;
+}
+/* General sibling selector */
+section ~ p{
+    color: aqua;
+}
+
+[target="_blank"]{
+    color: pink;
+    text-decoration: none;
+}
+[alt~="PW"]{
+    background-color: black;
+}
