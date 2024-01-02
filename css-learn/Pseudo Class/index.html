@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        .hover:hover{
+            background-color: #c91d90;
+            color: hsl(0, 0%, 100%);
+        }
+        input:focus{
+            color: #ff0000;
+            background-color: #ffffff;
+            font-size: 25px;
+        }
+        /* a:hover{
+            color: pink;
+        }
+        a:active{
+            color: brown;
+        }
+        a:visited{
+            color: black;
+        } */
+        /* a:first-child{
+            background-color: yellow;
+        } */
+        /* a:nth-child(5n+1){
+            background-color: yellow;
+        } */
+        /* p::first-line{
+            color: violet;
+        } */
+        p::after{
+            content: "- Sandeep Patel";
+            color: aqua;
+        }
+        p::before{
+            content: "- Sandeep Patel";
+            color: aqua;
+        }
+        p::selection{
+            background-color: black;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pseudo Class -->
+    <p class="hover">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, repellendus?
+    </p>
+    <input type="text">
+    <hr />
+    <nav>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.google.com">Google</a>
+    </nav>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique labore id cumque a totam mollitia ipsam maiores, doloremque reiciendis impedit unde odio iure nulla veniam dignissimos molestias quas debitis necessitatibus ab quis? Incidunt blanditiis distinctio odio earum asperiores dolore tempora totam labore magnam corrupti est, illum dolorum quidem laudantium exercitationem.</p>
+</body>
+</html>
